@@ -1,11 +1,13 @@
 package com.piyushmaheswari.mvvmarchitecture;
 
+import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
+import android.os.AsyncTask;
+import android.support.annotation.NonNull;
 
-import java.net.ContentHandler;
 
 @Database(entities = {Note.class},version = 1)
 public abstract class NoteDatabase extends RoomDatabase {
@@ -23,5 +25,25 @@ public abstract class NoteDatabase extends RoomDatabase {
                             .build();
         }
         return instance;
+    }
+
+    private static RoomDatabase.Callback roomCallback =new RoomDatabase.Callback()
+    {
+        @Override
+        public void onCreate(@NonNull SupportSQLiteDatabase db) {
+            super.onCreate(db);
+        }
+    };
+
+    private static class PopulateDbAsyncTask extends AsyncTask<Void,Void,Void>
+    {
+        private NoteDao noteDao;
+
+
+
+        @Override
+        protected Void doInBackground(Void... voids) {
+            return null;
+        }
     }
 }
