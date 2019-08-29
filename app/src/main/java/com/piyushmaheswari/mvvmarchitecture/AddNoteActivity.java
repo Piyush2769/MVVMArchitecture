@@ -65,6 +65,8 @@ public class AddNoteActivity extends AppCompatActivity {
         String title=editTextTitle.getText().toString();
         String descr=editTextDesc.getText().toString();
         int priority=numberPickerPri.getValue();
+        int priority2=numberPickerPri.getValue();
+        int priority3=numberPickerPri.getValue();
 
         if(title.trim().isEmpty() || descr.trim().isEmpty()) {
             Toast.makeText(this, "Please enter value in Title and Description", Toast.LENGTH_SHORT).show();

@@ -19,7 +19,7 @@
        android:id="@+id/add_new_note"
        android:src="@drawable/ic_add_black_24dp"
        android:layout_gravity="bottom|end"
-       android:layout_margin="40dp"
+       android:layout_margin="30dp"
        android:layout_height="wrap_content" />
 
 </android.support.design.widget.CoordinatorLayout>
