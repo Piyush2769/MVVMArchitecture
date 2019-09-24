@@ -26,6 +26,9 @@ public class AddNoteActivity extends AppCompatActivity {
     private EditText editTextDesc3;
     private NumberPicker numberPickerPri2;
 
+    private RelativeLayout relativeLayout5;
+    private LinearLayout linearLayout6;
+
 
 
     private RelativeLayout relativeLayout;
