@@ -7,7 +7,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.NumberPicker;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 public class AddNoteActivity extends AppCompatActivity {
@@ -19,6 +21,9 @@ public class AddNoteActivity extends AppCompatActivity {
     public static final String EXTRA_PRIORITY
             ="com.piyushmaheswari.mvvmarchitecture.EXTRA_PRIORITY";
 
+
+    private RelativeLayout relativeLayout;
+    private LinearLayout linearLayout;
 
     private EditText editTextTitle;
     private EditText editTextDesc;
