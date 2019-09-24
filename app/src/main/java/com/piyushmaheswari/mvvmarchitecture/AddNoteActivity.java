@@ -22,6 +22,12 @@ public class AddNoteActivity extends AppCompatActivity {
             ="com.piyushmaheswari.mvvmarchitecture.EXTRA_PRIORITY";
 
 
+    private EditText editTextTitle23;
+    private EditText editTextDesc3;
+    private NumberPicker numberPickerPri2;
+
+
+
     private RelativeLayout relativeLayout;
     private LinearLayout linearLayout;
 
