@@ -1,5 +1,6 @@
 package com.piyushmaheswari.mvvmarchitecture;
 
+import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,6 +13,11 @@ import java.util.List;
 
 public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteHolder>
 {
+    private TextView d;
+    private Image i;
+
+
+
     private List<Note> noteList=new ArrayList<>();
 
     @NonNull
