@@ -1,6 +1,7 @@
 package com.piyushmaheswari.mvvmarchitecture;
 
 import android.content.Intent;
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,6 +11,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.NumberPicker;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class AddNoteActivity extends AppCompatActivity {
@@ -20,6 +22,11 @@ public class AddNoteActivity extends AppCompatActivity {
             ="com.piyushmaheswari.mvvmarchitecture.EXTRA_DESCRIPTION";
     public static final String EXTRA_PRIORITY
             ="com.piyushmaheswari.mvvmarchitecture.EXTRA_PRIORITY";
+
+
+    private TextView d;
+    private Image i;
+
 
 
     private EditText editTextTitle23;
