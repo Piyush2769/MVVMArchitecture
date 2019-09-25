@@ -16,6 +16,9 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.NoteHolder>
     private TextView d;
     private Image i;
 
+    private TextView d5;
+    private Image i36;
+
 
 
     private List<Note> noteList=new ArrayList<>();
