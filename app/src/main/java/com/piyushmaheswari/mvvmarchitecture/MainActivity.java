@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
     private Image i;
 
 
+    private TextView ds;
+    private Image iq;
+
+
     public static final int ADD_NEW_REQUEST=1;
     private NoteViewModel noteViewModel;
 
